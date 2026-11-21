@@ -73,3 +73,7 @@ Shin-ya Nishizaki and Shogo Murasaki
 ## How to cite
 
 Shin-ya Nishizaki and Shogo Murasaki. *Call-by-Name Normalizability of λcapenv and its Characterization by Intersection Types, Formalized in Isabelle/HOL.*
+
+## License
+
+MIT License (see [LICENSE](LICENSE)).
