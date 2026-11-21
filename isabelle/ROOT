@@ -1,0 +1,23 @@
+chapter LambdaCapEnvWeakHead
+
+session LambdaCapEnvWeakHead = HOL +
+  description "
+    Weak-head normalizability of lambda_capenv (no id) and its characterization by
+    intersection types.
+  "
+  options [document = false, quick_and_dirty = false]
+  theories
+    ARS
+    Cap_Syntax
+    Cap_Reduction
+    Sig_Confluence
+    WHNF_Classes
+    Typing
+    Completeness
+    Soundness
+    Main_Results
+    Uniform
+    Capture
+    Examples
+    Lambda
+    Readback

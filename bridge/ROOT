@@ -1,0 +1,8 @@
+session LambdaCapEnvWeakHead_CapI = LambdaCapEnvWeakHead +
+  description "
+    Bridge to the base calculus capI (session LambdaCapEnv of the repository lambda-capenv-public).
+    Build: isabelle build -d isabelle -d bridge -d <lambda-capenv-public>/isabelle LambdaCapEnvWeakHead_CapI
+  "
+  options [document = false, quick_and_dirty = false]
+  sessions LambdaCapEnv
+  theories CapI_Bridge
